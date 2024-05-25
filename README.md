@@ -12,9 +12,17 @@ comes with a LSP for Vim users.
 
 # Folder Structure
 
-## Application creation
+### Application creation
 
-Run `npx nx g @nx/angular:app main --directory=apps/medium/todo --prefix=idc` to create an application.
+Run `npx nx g @nx/angular:app main --directory=apps/medium/<app-name> --prefix=idc` to create an application.
+
+### Smart Library Creation
+
+Run `npx nx g @nx/angular:lib smart --directory=libs/medium/<lib-name> --prefix=idc` to create an smart library.
+
+### UI Library Creation
+
+Run `npx nx g @nx/angular:lib ui --directory=libs/medium/<lib-name> --prefix=idc` to create an ui library.
 
 ## Start the application
 

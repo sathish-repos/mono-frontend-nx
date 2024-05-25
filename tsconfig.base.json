@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mono-frontend-nx/medium/todo/smart": [
+        "libs/medium/todo/smart/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
