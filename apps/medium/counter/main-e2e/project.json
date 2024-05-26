@@ -1,0 +1,10 @@
+{
+  "name": "medium-counter-main-e2e",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/medium/counter/main-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["medium-counter-main"],
+  "// targets": "to see all targets run: nx show project medium-counter-main-e2e --web",
+  "targets": {}
+}
