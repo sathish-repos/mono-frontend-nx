@@ -60,6 +60,16 @@ npx nx run medium-todo-smart:lint
 npx nx run medium-todo-ui:lint
 ```
 
+#### For component Creation
+
+```
+npx nx g @nx/angular:component counter --directory=libs/medium/counter/smart/src/lib/entry-components --prefix=idc
+```
+
+```
+npx nx g @nx/angular:component counter-page --directory=libs/medium/counter/ui/src/lib/pages --prefix=idc
+```
+
 ## Running test
 
 Run the below to run test cases.

@@ -17,10 +17,10 @@
     "paths": {
       "@mnx/medium/todo/smart": ["libs/medium/todo/smart/src/index.ts"],
       "@mnx/medium/todo/ui": ["libs/medium/todo/ui/src/index.ts"],
-      "@mono-frontend-nx/medium/counter/smart": [
+      "@mnx/medium/counter/smart": [
         "libs/medium/counter/smart/src/index.ts"
       ],
-      "@mono-frontend-nx/medium/counter/ui": [
+      "@mnx/medium/counter/ui": [
         "libs/medium/counter/ui/src/index.ts"
       ]
     }

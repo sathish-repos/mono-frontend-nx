@@ -1,0 +1,1 @@
+export * from './lib/pages/counter-page/counter-page.component';
