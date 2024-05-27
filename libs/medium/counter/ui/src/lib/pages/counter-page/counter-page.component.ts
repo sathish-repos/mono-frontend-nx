@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, InputSignal, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './counter-page.component.scss',
 })
 export class CounterPageComponent {
-  count = input<number>();
+  count: InputSignal<number> = input.required<number>();
 }

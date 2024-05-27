@@ -1,6 +1,6 @@
-import { Injectable } from "@angular/core";
+import { Injectable, WritableSignal, signal } from '@angular/core';
 
-@Injectable({providedIn: 'root'})
-export class CounterService{
-  count: number = 5;
+@Injectable({ providedIn: 'root' })
+export class CounterService {
+  count: WritableSignal<number> = signal(6);
 }

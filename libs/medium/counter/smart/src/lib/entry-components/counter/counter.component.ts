@@ -1,7 +1,7 @@
-import { Component, inject } from '@angular/core';
+import { Component, WritableSignal, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CounterService } from '../../data-access/services/counter.service';
-import { CounterPageComponent} from '@mnx/medium/counter/ui';
+import { CounterPageComponent } from '@mnx/medium/counter/ui';
 @Component({
   selector: 'idc-counter',
   standalone: true,
@@ -12,5 +12,5 @@ import { CounterPageComponent} from '@mnx/medium/counter/ui';
 export class CounterComponent {
   private counterService = inject(CounterService);
 
-  count = this.counterService.count;
+  count: WritableSignal<number> = this.counterService.count;
 }
